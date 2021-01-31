@@ -1,4 +1,4 @@
-# metisChan
+# 01chan
 
 A 4chan clone made with Flask. Built to be super-lightweight!
 
