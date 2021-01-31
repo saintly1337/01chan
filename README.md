@@ -1,5 +1,5 @@
 # metisChan
 
-A flask *Chan clone, built to be very lightweight.
+A 4chan clone made with Flask. Built to be super-lightweight!
 
-![i have autism](https://i.imgur.com/f8T8jTn.png)
+Made by @khodges42, updated by @saintly1337
