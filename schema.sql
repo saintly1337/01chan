@@ -19,3 +19,4 @@ user text,
 date text,
 post_text text);
 CREATE TABLE replies (image_file text, user text, date text, board text, post_text text, replying_to text);
+
