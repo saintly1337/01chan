@@ -1,5 +1,5 @@
 <!doctype html>
-<title>metischan</title>
+<title>oneChan</title>
 <head>
   <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,9 +13,9 @@
     
  
   <form method = "POST" action="/{{board}}/post_reply/{{post[0]}}" enctype=multipart/form-data>
-    Name:<input type="text" name="name"/><br/>
-    Image:<input type=file name="image"/><br/>
-    Post:<textarea type="text" name="post_text"></textarea><br/>
+    Name: <input type="text" name="name"/><br/>
+    Image: <input type=file name="image"/><br/>
+    Text: <textarea type="text" name="post_text"></textarea><br/>
     <input type="submit" value="Post!"/>
     </form>
   <ul>
@@ -23,9 +23,9 @@
     {% if post[1] %}
     <a href="{{url_for('static',filename='uploads/'+post[1])}}"><img style="width:100px;" src="{{url_for('static',filename='uploads/'+post[1])}}" /></a>
     {% endif %}
-    User:{{post[2]}}
-    Date:{{post[3]}}
-    Post:{{post[5]}}
+    User: {{post[2]}}
+    Date: {{post[3]}}
+    Post: {{post[5]}}
   </div>
   {% for reply in replies %}
   <div>
@@ -33,9 +33,9 @@
     {% if reply[0] %}
     <a href="{{url_for('static',filename='uploads/'+reply[0])}}"><img style="width:100px;" src="{{url_for('static',filename='uploads/'+reply[0])}}" /></a>
     {% endif %}
-    User:{{reply[1]}}
-    Date:{{reply[2]}}
-    Post:{{reply[4]}}
+    User: {{reply[1]}}
+    Date: {{reply[2]}}
+    Post: {{reply[4]}}
   </div>
   {% endfor %}
   
