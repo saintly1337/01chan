@@ -68,10 +68,10 @@ After this you can check if it is installed with the comand
 > sqlite3
 
 If it says this:
-> SQLite version 3.22.0 2018-01-22 18:45:57
-> Enter ".help" for usage hints.
-> Connected to a transient in-memory database.
-> Use ".open FILENAME" to reopen on a persistent database.
+> SQLite version 3.22.0 2018-01-22 18:45:57<br>
+> Enter ".help" for usage hints.<br>
+> Connected to a transient in-memory database.<br>
+> Use ".open FILENAME" to reopen on a persistent database.<br>
 > sqlite>
 
 you made everything right! Of course, the SQLite version may change when this tutorial is outdated, but the installation will be the same (at least I hope).
@@ -99,10 +99,10 @@ Then you should get in the menu where the input line says:
 (Optional) You can view the created tables with:
 > .tables
 
+Then should "boards", "posts" and "replies" displayed. If not, you have done something wrong.
+
 Then you can leave this with the following comand:
 > .quit
-
-Then should "boards", "posts" and "replies" displayed. If not, you have done something wrong.
 
 # 5. Running the Flask-App
 After all the previous steps, you're several steps closer to your goal (lmao what is this sentence??).
