@@ -69,13 +69,9 @@ After this you can check if it is installed with the comand
 
 If it says this:
 > SQLite version 3.22.0 2018-01-22 18:45:57
-
 > Enter ".help" for usage hints.
-
 > Connected to a transient in-memory database.
-
 > Use ".open FILENAME" to reopen on a persistent database.
-
 > sqlite>
 
 you made everything right! Of course, the SQLite version may change when this tutorial is outdated, but the installation will be the same (at least I hope).
@@ -100,11 +96,11 @@ Now you can view this Database in SQLite3 with:
 Then you should get in the menu where the input line says:
 > sqlite>
 
-Then you can leave this with the following comand:
-> .quit
-
 (Optional) You can view the created tables with:
 > .tables
+
+Then you can leave this with the following comand:
+> .quit
 
 Then should "boards", "posts" and "replies" displayed. If not, you have done something wrong.
 
@@ -127,5 +123,5 @@ So you are instering a board. the values are "a" and "Anime". In this case, "a" 
 So now we got these, let's test it by refreshing the browser page where you have the site opened. As you can see, under the title of the page are links. Well done.
 
 # 6. Being done
-Well, great job! You are done. If you had any problems, feel free to start a discussion or comit an issue. Hope you got easily through it and if you have any improvements here, feel free, to change this file and make them (:
+Well, great job! You are done. If you had any problems, feel free to start a discussion or comit an issue. Hope you got easily through it and if you have any improvements here, feel free, to change this file and make them (: <br>
 greetings, saintly1337!
