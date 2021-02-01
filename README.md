@@ -1,4 +1,4 @@
-# metisChan
+# oneChan
 
 A 4chan clone made with Flask. Built to be super-lightweight and easy to use!
 
@@ -9,7 +9,7 @@ Made by @khodges42, updated by @saintly1337
 Since many of you don't know how to install and run it locally, I (saintly1337) will tell you.
 Here is a little Index of what is awaiting you:
 - <a href="#0-Requirements">0. Requirements</a>
-- <a href="#1-Installing-git-and-docker-compose-docker">1. Installing git and docker-compose docker</a>
+- <a href="#1-Installing-git">1. Installing git</a>
 - <a href="#2-Cloning-the-Repo-on-your-Machine">2. Cloning the Repo on your Machine</a>
 - <a href="#3-Editing-everything-to-your-comfort">3. Editing everything to your comfort</a>
 - <a href="#4-Creating-the-Database">4. Creating the Database</a>
@@ -21,7 +21,7 @@ First of all: you need Linux. Or at least a Linux emulator. If you don't got one
 
 Then if you got this, you can continue.
 
-# 1. Installing git and docker-compose docker
+# 1. Installing git
 > sudo apt-get update
 
 checking if sudo needs an update
@@ -29,10 +29,6 @@ checking if sudo needs an update
 > sudo apt-get install git
 
 installing git on your machine to clone the repo
-
-> sudo apt-get install docker-compose docker
-
-installig the docker
 
 # 2. Cloning the Repo on your Machine
 > sudo git clone https://github.com/khodges42/metischan.git
@@ -124,4 +120,6 @@ So now we got these, let's test it by refreshing the browser page where you have
 
 # 6. Being done
 Well, great job! You are done. If you had any problems, feel free to start a discussion or comit an issue. Hope you got easily through it and if you have any improvements here, feel free, to change this file and make them (: <br>
-greetings, saintly1337!
+greetings, saintly1337!<br>
+![i have autism](https://i.imgur.com/f8T8jTn.png)
+(I just took in this picture because it was funny)
