@@ -1,4 +1,4 @@
-# oneChan
+# metisChan
 
 A 4chan clone made with Flask. Built to be super-lightweight and easy to use!
 
@@ -8,13 +8,13 @@ Made by @khodges42, updated by @saintly1337
 
 Since many of you don't know how to install and run it locally, I (saintly1337) will tell you.
 Here is a little Index of what is awaiting you:
-- <a href="#0. Requirements">0. Requirements</a>
-- <a href="#1. Installinggit and docker-compose docker">1. Installing git and docker-compose docker</a>
-- <a href="#2. Cloning the Repo on your Machine">2. Cloning the Repo on your Machine</a>
-- <a href="#3. Editing everything to your comfort">3. Editing everything to your comfort</a>
-- <a href="#4. Creating the Database">4. Creating the Database</a>
-- <a href="#5. Running the Flask-App">5. Running the Flask-App</a>
-- <a href="#6. Being done">6. Being done</a>
+- <a href="#0-Requirements">0. Requirements</a>
+- <a href="#1-Installing-git-and-docker-compose-docker">1. Installing git and docker-compose docker</a>
+- <a href="#2-Cloning-the-Repo-on-your-Machine">2. Cloning the Repo on your Machine</a>
+- <a href="#3-Editing-everything-to-your-comfort">3. Editing everything to your comfort</a>
+- <a href="#4-Creating-the-Database">4. Creating the Database</a>
+- <a href="#5-Running-the-Flask-App">5. Running the Flask-App</a>
+- <a href="#6-Being-done">6. Being done</a>
 
 # 0. Requirements
 First of all: you need Linux. Or at least a Linux emulator. If you don't got one, I recomend using <a href="https://www.virtualbox.org">VirtualBox</a>. And <a href="https://ubuntu.com/download/desktop">here</a> you can download Ubuntu ISO.
