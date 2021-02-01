@@ -96,3 +96,4 @@ def reply(board, post_id):
     print replies
     return render_template('reply.html', post=post[0], replies=replies, board=board)
     
+    
