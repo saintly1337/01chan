@@ -54,14 +54,14 @@ def post(board):
         if 'image' in request.files:
             file = request.files['image']
             if file and allowed_file(file.filename):
-                print 'file good'
+                print('file accepted')
                 filename = secure_filename(file.filename)
                 newfilename = str(random.randint(10000000,100000000))+'.'+filename.rsplit('.', 1)[1].lower()
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], newfilename))
         now = datetime.datetime.now()
         post = (newfilename,request.form.get('name'),now.isoformat(),board,request.form.get('post_text'))
-        print create_new_post(post,'0')
-    return 'posted'
+        print(create_new_post(post,'0'))
+    return('posted')
 
 @app.route('/<board>/post_reply/<post_id>', methods = ['POST'])
 def post_reply(board,post_id):
@@ -70,19 +70,19 @@ def post_reply(board,post_id):
         if 'image' in request.files:
             file = request.files['image']
             if file and allowed_file(file.filename):
-                print 'file good'
+                print('file accepted')
                 filename = secure_filename(file.filename)
                 newfilename = str(random.randint(10000000,100000000))+'.'+filename.rsplit('.', 1)[1].lower()
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], newfilename))
         now = datetime.datetime.now()
         post = (newfilename,request.form.get('name'),now.isoformat(),board,request.form.get('post_text'),post_id)
-        print create_new_post(post,post_id)
-    return 'posted'
+        print(create_new_post(post,post_id))
+    return('posted')
 
 @app.route('/')
 def index():
     boards = query_db('select * from boards')
-    return render_template('front.html', boards=boards)
+    return(render_template('front.html', boards=boards))
 
 @app.route('/<board>')
 def board(board):
@@ -93,7 +93,6 @@ def board(board):
 def reply(board, post_id):
     post = query_db('select * from posts where post_id = {}'.format(post_id))
     replies = query_db('select * from replies where replying_to = "{}"'.format(post_id))
-    print replies
+    print(replies)
     return render_template('reply.html', post=post[0], replies=replies, board=board)
-    
     
