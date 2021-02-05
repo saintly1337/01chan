@@ -1,0 +1,5 @@
+how to add boards?
+
+insert into boards(board_short_name, board_description) values ('a', 'Anime');
+
+paste this with shift+ctr+v into comand line and replase "a" and "Anime" with other board names.
